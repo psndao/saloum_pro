@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Découvrir le Sine Saloum - Sénégal</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Pour styliser la page -->
+</head>
+<body>
+
+    <!-- En-tête avec une belle image en arrière-plan -->
+    <header style="background-image: url('images/accueil.jpg');">
+        <div class="overlay">
+            <h1>Bienvenue au Sine Saloum</h1>
+            <p>Explorez la beauté naturelle et la richesse culturelle du Sine Saloum, Sénégal.</p>
+        </div>
+    </header>
+
+    <!-- Section À propos -->
+    <section id="a-propos">
+        <h2>À Propos de Nous</h2>
+        <p>Nous sommes passionnés par la promotion du tourisme durable dans le Sine Saloum. Notre mission est de faire découvrir cette région magnifique et de soutenir les communautés locales.</p>
+    </section>
+
+    <!-- Section Découverte du Sine Saloum -->
+    <section id="decouverte">
+        <h2>Découvrir le Sine Saloum</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="images/ile-mar-lodj.jpg" alt="Île de Mar Lodj">
+                <h3>Île de Mar Lodj</h3>
+                <p>Un lieu pittoresque avec des villages traditionnels, des plages, et une nature préservée.</p>
+            </div>
+            <div class="card">
+                <img src="images/parc-saloum.jpg" alt="Parc National du Delta du Saloum">
+                <h3>Parc National du Delta du Saloum</h3>
+                <p>Découvrez un écosystème unique de mangroves et une grande variété d'espèces d'oiseaux.</p>
+            </div>
+            <div class="card">
+                <img src="images/villages-pecheurs.jpg" alt="Villages de Pêcheurs">
+                <h3>Villages de Pêcheurs</h3>
+                <p>Rencontrez les communautés locales et apprenez leurs techniques de pêche traditionnelles.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Activités -->
+    <section id="activites">
+        <h2>Activités et Expériences</h2>
+        <ul>
+            <li>Excursions en pirogue à travers les bolongs.</li>
+            <li>Randonnées et écotourisme dans les mangroves.</li>
+            <li>Observation ornithologique : plus de 400 espèces d'oiseaux.</li>
+        </ul>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact">
+        <h2>Contactez-Nous</h2>
+        <p>Pour toute information ou réservation, veuillez nous contacter par email ou via notre formulaire de contact.</p>
+        <form action="envoyer.php" method="post">
+            <input type="text" name="nom" placeholder="Votre nom">
+            <input type="email" name="email" placeholder="Votre email">
+            <textarea name="message" placeholder="Votre message"></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sine Saloum Tourisme. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
